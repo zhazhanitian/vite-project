@@ -1,5 +1,6 @@
 module.exports = {
   extends: 'stylelint-config-standard',
+  ignoreFiles: ["dist/**/*"],
   rules: {
     // 颜色值小写
     'color-hex-case': 'lower',
