@@ -2,6 +2,7 @@ module.exports = {
   extends: 'stylelint-config-standard',
   ignoreFiles: ["dist/**/*"],
   rules: {
+    "selector-pseudo-class-no-unknown": [true, { "ignorePseudoClasses": ["deep", "v-deep"]} ]
     // // 颜色值小写
     // 'color-hex-case': 'lower',
     // // 注释前无须空行
